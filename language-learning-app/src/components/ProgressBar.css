@@ -1,0 +1,19 @@
+.progress-bar-container {
+    width: 50%; /* Adjust width as needed */
+    max-width: 400px; /* Prevent it from getting too wide */
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 15px;
+    margin: 20px auto; /* ✅ Centers horizontally */
+    display: flex;
+    align-items: center; /* Centers vertically inside the container */
+    justify-content: center;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #4caf50; /* Green color */
+    transition: width 0.5s ease-in-out;
+  }
+  

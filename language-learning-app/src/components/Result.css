@@ -1,0 +1,36 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #1e1e1e; /* Dark theme */
+  color: white;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: yellow;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #ffcc00;
+  color: black;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffaa00;
+}
